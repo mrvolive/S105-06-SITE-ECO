@@ -12,7 +12,7 @@ Etudiant 2 : [MARAVAL Olivier](mailto:olivier.maraval@edu.univ-fcomte.fr?subject
 Etudiant 3 : [KHERZA Yahia](mailto:yahia.kherza@edu.univ-fcomte.fr?subject=SAE_1_05_06)
 
 
-Etudiant 4 : [VIRET-JACQUOT Valentin](mailto:valentin.viret-jacquot@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
+Etudiant 4 : [VIRET-JACQUOT Valentin](mailto:vviretja@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
 
 # Présentation du projet
 
