@@ -1,6 +1,4 @@
-# Titre sujet
-Analyse économique de l'entreprise Reflet Communication
-
+# Analyse économique de l'entreprise Reflet Communication
 ## Sujet
 [sae1.05-06](https://github.com/mrvolive/sae1.05-06)
 
