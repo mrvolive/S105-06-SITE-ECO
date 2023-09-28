@@ -2,7 +2,7 @@
 ## Sujet
 [url du projet sae1.05-06](https://github.com/mrvolive/sae1.05-06)
 
-[url du site](https://mrolive.github.io/sae1.05-06/)
+[url du site](https://mrvolive.github.io/sae1.05-06/)
 
 ## Membres du groupe :
 Etudiant 1 (réferent du groupe) : [COURVOISIER Mathis](mailto:mathis.courvoisier@edu.univ-fcomte.fr?subject=SAE_1_05_06)
