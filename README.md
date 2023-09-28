@@ -18,5 +18,8 @@ Etudiant 4 : [VIRET-JACQUOT Valentin](mailto:valentin.viret-jacquot@edu.univ-fco
 
 # Présentation du projet
 
-Site internet ayant pour but de présenter l'entreprise Reflet Communication basée à Belfort
-
+Le projet est un site web présentant l'entreprise Reflet Communication. Ce-dernier comporte 
+une page d’accueil mettant en avant l’identité visuelle de l'entreprise, contenant un 
+paragraphe de présentation et faisant office de menu.
+Le site compte également 3 autres pages présentant respectivement la chronologie de
+l’entreprise, ses domaines d’activité et sa situation économique.
