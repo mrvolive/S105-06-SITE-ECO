@@ -18,3 +18,5 @@ Etudiant 4 : [VIRET-JACQUOT Valentin](mailto:valentin.viret-jacquot@edu.univ-fco
 
 # Présentation du projet
 
+Site internet ayant pour but de présenter l'entreprise Reflet Communication basée à Belfort
+
