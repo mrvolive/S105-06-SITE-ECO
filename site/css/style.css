@@ -327,7 +327,7 @@ header nav li.inactive a {
 	color: gray;
 }
 header nav li a:hover {
-	color: red;
+	color: #BCAB79;
 }
 header nav .ownmenu li {
 	float: left;
