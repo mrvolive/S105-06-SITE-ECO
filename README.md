@@ -1,7 +1,5 @@
 # Analyse économique de l'entreprise Reflet Communication
 ## Sujet
-[url du projet sae1.05-06](https://github.com/mrvolive/sae1.05-06)
-
 [url du site](https://mrvolive.github.io/sae1_05-06/)
 
 ## Membres du groupe :
