@@ -24,6 +24,9 @@ l’entreprise, ses domaines d’activité et sa situation économique.
 
 # Validation par W3C
 Screen 1
+
 Screen 2
+
 Screen 3
+
 Screen 4
