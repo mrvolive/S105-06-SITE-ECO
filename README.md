@@ -21,3 +21,9 @@ une page d’accueil mettant en avant l’identité visuelle de l'entreprise, co
 paragraphe de présentation et faisant office de menu.
 Le site compte également 3 autres pages présentant respectivement la chronologie de
 l’entreprise, ses domaines d’activité et sa situation économique.
+
+# Validation par W3C
+Screen 1
+Screen 2
+Screen 3
+Screen 4
