@@ -1,6 +1,6 @@
 # Analyse économique de l'entreprise Reflet Communication
 ## Sujet
-[url du site](https://mrvolive.github.io/sae1_05-06/)
+[Url du site](https://mrvolive.github.io/sae1_05-06/)
 
 ## Membres du groupe :
 Etudiant 1 (réferent du groupe) : [COURVOISIER Mathis](mailto:mathis.courvoisier@edu.univ-fcomte.fr?subject=SAE_1_05_06)
