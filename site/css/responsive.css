@@ -279,6 +279,77 @@ header nav li a{
 	color:#fff;
 	font-size:20px;
 }
+
+.flexcontainer {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-shrink: 10;
+}
+.flexcontainer2 {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column-reverse;
+	align-items: center;
+	flex-wrap: wrap-reverse;
+	flex-shrink: 10;
+}
+.flexitem-img {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: auto;
+}
+.flexitem-txt {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: auto;
+}
+.flexitem {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: auto;
+}
+.flexitem-0 {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: auto;
+}
+
+.flexitem-20 {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: auto;
+}
+.flexitem-30 {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: auto;
+}
+
+.flexitem-40 {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: auto;
+}
+
+.flexitem-60 {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: auto;
+}
+
+.flexitem-70 {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: auto;
+}
+
+.flexitem-80 {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: auto;
 }
 @media (max-width:640px) {
 .portfolio .col-2 .item {
@@ -293,4 +364,5 @@ header nav li a{
 @media(max-width:440px) {
 }
 @media(max-width:320px) {
+}
 }

@@ -22,10 +22,30 @@ body
  + SOCIAL ICONS
  + 3 MENU LEVEL
 -------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+color palette 
+ 31393C Gunmetal
+ 2176FF Blue
+ 33A1FD Celestial Blue
+ FDCA40 Sunglow
+ F79824 Carrot orange
+-------------------------------------------------------------------*/
+
 /*=======================================================
       IMPORT FONT FILE
 ========================================================*/
 @import url("../fonts/montserrat-fonts.css");
+@import url("../fonts/OpenSans/opensans_bold_macroman/stylesheet.css");
+@import url("../fonts/OpenSans/opensans_regular_macroman/stylesheet.css");
+@import url("../fonts/OpenSans/opensans_light_macroman/stylesheet.css");
+@import url("../fonts/OpenSans/opensans_semibold_macroman/stylesheet.css");
+@import url("../fonts/OpenSans/opensans_extrabold_macroman/stylesheet.css");
+@import url("../fonts/OpenSans/opensans_italic_macroman/stylesheet.css");
+@import url("../fonts/OpenSans/opensans_bolditalic_macroman/stylesheet.css");
+@import url("../fonts/OpenSans/opensans_semibolditalic_macroman/stylesheet.css");
+@import url("../fonts/OpenSans/opensans_lightitalic_macroman/stylesheet.css");
+@import url("../fonts/OpenSans/opensans_extrabolditalic_macroman/stylesheet.css");
 /*=======================================================
       THEME STYLING START
 ========================================================*/
@@ -39,7 +59,7 @@ body {
 	position: relative;
 	font-size: 13px;
 	color: #333333;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'open_sansregular', sans-serif;
 }
 /*=======================================================
       WRAPPER
@@ -61,10 +81,10 @@ body {
 ========================================================*/
 h1, h2, h3, h4, h5, h6 {
 	font-weight: normal;
-	color: #315659;
+	color: #F79824;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'open_sansregular', sans-serif;
 }
 h1 {
 	font-size: 65px;
@@ -85,10 +105,10 @@ h6 {
 	font-size: 16px;
 }
 p {
-	color: #989898;
+	color: #31393C;
 	font-size: 13px;
 	line-height: 28px;
-	font-family: 'montserratlight';
+	font-family: 'open_sanslight';
 }
 a {
 	-webkit-transition: all 0.4s ease-in-out;
@@ -98,7 +118,7 @@ a {
 	transition: all 0.4s ease-in-out;
 	text-decoration: none !important;
 	font-weight: normal;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'open_sansregular', sans-serif;
 }
 img {
 	-webkit-transition: 0.4s ease-in-out;
@@ -119,7 +139,7 @@ a {
 	color: #757575;
 }
 .font-montserrat {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'open_sansregular', sans-serif;
 }
 .font-hair-line {
 	font-family: 'montserrathairline';
@@ -257,7 +277,7 @@ hr {
 .tittle p {
 	color: #989898;
 	font-size: 15px;
-	font-family: 'Droid Serif', serif;
+	font-family: 'open_sansregular', sans-serif;
 	line-height: 28px;
 }
 .bg-white {
@@ -289,7 +309,7 @@ hr {
 header {
 	z-index: 99;
 	position: relative;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'open_sansregular', sans-serif;
 }
 header .logo {
 	float: left;
@@ -322,12 +342,13 @@ header nav li a {
 header nav li.active a:hover {
 }
 header nav li.active a {
+	color: #2176FF
 }
 header nav li.inactive a {
 	color: gray;
 }
 header nav li a:hover {
-	color: #2978A0;
+	color: #33A1FD;
 }
 header nav .ownmenu li {
 	float: left;
@@ -424,12 +445,12 @@ header.main-header nav .ownmenu li {
 }
 .breadcrumb a {
 	color: #fff85f;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'open_sansregular', sans-serif;
 }
 .breadcrumb>.active {
 	color: #fff85f;
 	font-weight: 600;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'open_sansregular', sans-serif;
 }
 .breadcrumb>li+li:before {
 	content: "\f105";
@@ -733,7 +754,7 @@ header.main-header nav .ownmenu li {
 	margin-right: 10px;
 	min-width: 80px;
 	font-size: 40px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'open_sansregular', sans-serif;
 	font-weight: 300;
 }
 #counters h6 {
@@ -1168,7 +1189,7 @@ header.main-header nav .ownmenu li {
 	color: #333333;
 	text-align: left;
 	margin-bottom: 10px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'open_sansregular', sans-serif;
 	text-transform: uppercase;
 	margin-bottom: 0px;
 }
@@ -1185,7 +1206,7 @@ header.main-header nav .ownmenu li {
 	color: #8e0c34;
 	margin-top: -32px;
 	font-size: 10px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'open_sansregular', sans-serif;
 }
 .skills .progress {
 	border-radius: 0px;
@@ -1209,7 +1230,7 @@ header.main-header nav .ownmenu li {
 	position: relative;
 	right: 0px;
 	top: -20px;
-	font-family: 'Montserrat';
+	font-family: 'open_sansregular';
 	color: #999999;
 }
 .parallax-bg {
@@ -1605,7 +1626,7 @@ header.main-header nav .ownmenu li {
 	padding-top: 60px;
 	padding-bottom: 10px;
 	min-height: 200px;
-	background: #3c3c3c;
+	background: #2176FF;
 	text-transform: uppercase;
 }
 .footer-up .contact {
@@ -1613,7 +1634,7 @@ header.main-header nav .ownmenu li {
 	padding-top: 60px;
 	padding-bottom: 10px;
 	min-height: 200px;
-	background: #343434;
+	background: #33A1FD;
 }
 .footer-up i {
 	font-size: 40px;
@@ -1647,7 +1668,7 @@ footer {
 	background: #2e2e2e;
 	padding-top: 120px;
 	text-align: center;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'open_sansregular', sans-serif;
 }
 footer img {
 	margin-bottom: 20px;
@@ -1917,7 +1938,7 @@ footer .social_icons li a {
 	padding-right: 20px;
 }
 .blog .post-tittle a {
-	font-family: 'Montserrat';
+	font-family: 'open_sansregular';
 	font-size: 14px;
 	color: #333333;
 	letter-spacing: 1px;
@@ -1962,7 +1983,7 @@ footer .social_icons li a {
 	margin-left: 50px;
 	border: 1px solid #ececec;
 	font-weight: bold;
-	font-family: 'Montserrat';
+	font-family: 'open_sansregular';
 	font-size: 11px;
 	margin-right: 30px;
 }
@@ -2131,7 +2152,7 @@ footer .social_icons li a {
 	display: inline-block;
 	width: 100%;
 	font-size: 10px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'open_sansregular', sans-serif;
 }
 .comments form .form-control {
 	display: inline-block;
@@ -2322,6 +2343,11 @@ footer .social_icons li a {
 	background-color: #3b5a9b;
 	border-color: #3b5a9b;
 }
+.social_icons .general a:hover {
+	color: #fff;
+	background-color: #F79824;
+	border-color: #F79824;
+}
 .social_icons .flickr a:hover {
 	color: #fff;
 	background-color: #ff0084;
@@ -2468,11 +2494,17 @@ footer .social_icons li a {
 .padding-t-50 {
 	padding-top: 50px;
 }
+.padding-t-100 {
+	padding-top: 100px;
+}
 .padding-b-20 {
 	padding-bottom: 20px;
 }
 .padding-b-50 {
 	padding-bottom: 50px;
+}
+.padding-b-100 {
+	padding-bottom: 100px;
 }
 .no-margin {
 	margin: 0px !important;
@@ -2488,4 +2520,82 @@ footer .social_icons li a {
 }
 .padding-l-60 {
 	padding-left: 60px;
+}
+
+/*=======================================================
+			FLEXBOX
+========================================================*/
+
+.flexcontainer {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-shrink: 10;
+}
+.flexcontainer2 {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap-reverse;
+	flex-shrink: 10;
+}
+
+.flexitem {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: 0;
+}
+
+.flexitem-img {
+	flex: 1 1 0%;
+	padding: 20px;
+	width: 0;
+}
+
+.flexitem-txt {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: 0;
+}
+
+.flexitem-0 {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: 0;
+}
+
+.flexitem-20 {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: 20%;
+}
+.flexitem-30 {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: 30%;
+}
+
+.flexitem-40 {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: 40%;
+}
+
+.flexitem-60 {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: 60%;
+}
+
+.flexitem-70 {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: 70%;
+}
+
+.flexitem-80 {
+	flex: 1 1 0px;
+	padding: 20px;
+	width: 80%;
 }
