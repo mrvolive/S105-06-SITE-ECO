@@ -27,7 +27,9 @@ Screen 1
 
 Screen 2
 
-[Screen 3](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmrvolive.github.io%2Fsae1_05-06%2Feconomie.html)
+[w3c Page Economie](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmrvolive.github.io%2Fsae1_05-06%2Feconomie.html)
+
+![Image montrant un check positif w3c pour la page économie](https://raw.githubusercontent.com/mrvolive/sae1.05-06/main/w3c/w3c_economie.png)
 
 Screen 4
 
