@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reflet Communication</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <meta name="description" content="Economie">
+  <meta name="author" content="Olivier MARAVAL">
+
+  <!-- FONTS ONLINE -->
+  <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
+    type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+  <!--MAIN STYLE-->
+  <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/responsive.css" rel="stylesheet" type="text/css">
+  <link href="css/animate.css" rel="stylesheet" type="text/css">
+
+  <!-- SLIDER REVOLUTION 4.x CSS SETTINGS -->
+  <link rel="stylesheet" type="text/css" href="rs-plugin/css/settings.css" media="screen">
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body>
+
+  <!-- Page Wrap -->
+  <div id="wrap">
+    <div id="main-wrapper">
+      <header class="main-header">
+        <div class="container-fluid">
+          <div class="logo"> <a href="#."> <img src="images/logo-rc.png" alt="RC Logo"></a> </div>
+
+          <!-- Nav -->
+          <nav>
+            <ul id="ownmenu" class="ownmenu">
+              <li class="inactive"><a href="index.html">Accueil</a></li>
+              <li class="inactive"><a href="services.html">Services</a></li>
+              <li class="inactive"><a href="histoire.html">Histoire</a></li>
+              <li class="active"><a href="economie.html">Economie</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <section class="sub-banner">
+        <div class="container">
+          <div class="position-center-center">
+            <h2>Aperçu Economique</h2>
+          </div>
+        </div>
+      </section>
+
+      <!--======= ABOUT SECTION =========-->
+      <section class="padding-t-100 padding-b-50">
+        <div class="container">
+          <!-- Tittle -->
+          <div class="tittle">
+            <h4>Une success story</h4>
+            <p>Reflet Communication a su s'imposer comme un acteur majeur ces dernières années. Aujourd'hui, nombreux
+              sont les professionnels qui ont fait confiance à l'entreprise belfortaine.</p>
+            <p>Voici le résumé des chiffres clés de cette croissance.</p>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 1ère ligne -->
+      <section class="padding-b-100">
+        <div class="flexcontainer">
+
+          <div class="flexitem-img">
+            <!-- Chart CA -->
+            <div>
+              <canvas id="myChart"></canvas>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+            <script>
+              const ctx = document.getElementById('myChart');
+
+              new Chart(ctx, {
+                type: 'line',
+                data: {
+                  labels: ['2016', '2017', '2018', '2019', '2020', '2021'],
+                  datasets: [{
+                    label: "Chiffre d'Affaire en €",
+                    data: [6436030, 8717630, 10050893, 11828884, 12756916, 16053312],
+                    borderColor: '#F79824',
+                    borderWidth: 1
+                  }]
+                },
+                options: {
+                  scales: {
+                    y: {
+                      beginAtZero: false
+                    }
+                  }
+                }
+              });
+            </script>
+            <!-- Fin Chart CA -->
+          </div>
+
+          <div class="flexitem-txt">
+            <h6>Evolution du chiffre d'affaire</h6>
+            <p>Ces chiffres montrent une croissance continue de l'entreprise au fil des ans, avec une augmentation
+              significative du chiffre d'affaires en 2021 par rapport à l'année précédente.</p>
+            <p>La croissance continue de l'entreprise et l'augmentation significative du chiffre d'affaires en 2021 sont
+              des signes positifs pour l'avenir de l'entreprise. Cela peut indiquer que l'entreprise est sur la bonne
+              voie pour atteindre ses objectifs à long terme et peut avoir plus de ressources pour investir dans la
+              croissance et l'expansion.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 2ème ligne -->
+
+      <section class="padding-b-100">
+        <div class="flexcontainer2">
+
+          <!-- Item Gauche -->
+          <div class="flexitem-txt">
+            <h6>Croissance</h6>
+            <p>Le taux de croissance du chiffre d'affaires a connu une augmentation significative en 2021 à 25,8%. Cela
+              indique une augmentation importante des ventes sur cette même année. </p>
+            <p>L’augmentation des taux de marge d'EBITDA et opérationnelle quant à elle, indique une amélioration
+              constante du profit généré par l’entreprise indépendamment de sa politique de financement,
+              d’investissement et de ses contraintes.</p>
+          </div>
+          <!-- Item Droite -->
+          <div class="flexitem-img">
+            <!-- Chart CA -->
+            <div>
+              <canvas id="myChart2"></canvas>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+            <script>
+              const ctx2 = document.getElementById('myChart2');
+
+              new Chart(ctx2, {
+
+                data: {
+                  datasets: [{
+                    type: 'line',
+                    label: "Taux de croissance du CA en %",
+                    data: [15.3, 17.7, 7.8, 25.8],
+                    borderColor: '#F79824',
+                    borderWidth: 1
+                  },
+                  {
+                    type: 'line',
+                    label: "Taux de marge d'EBITDA %",
+                    data: [15.4, 13.9, 17.8, 21.5],
+                    borderColor: '#FDCA40',
+                    borderWidth: 1
+                  },
+                  ],
+                  labels: ['2018', '2019', '2020', '2021']
+                },
+                options: {
+                  scales: {
+                    y: {
+                      beginAtZero: false
+                    }
+                  }
+                }
+              });
+            </script>
+            <!-- Fin Chart CA -->
+          </div>
+        </div>
+      </section>
+
+      <!-- 3ème ligne -->
+      <section class="padding-b-100">
+        <div class="flexcontainer">
+
+          <div class="flexitem-img">
+            <!-- Chart CA -->
+            <div>
+              <canvas id="myChart3"></canvas>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+            <script>
+              const ctx3 = document.getElementById('myChart3');
+
+              new Chart(ctx3, {
+                type: 'line',
+                data: {
+                  datasets: [{
+                    type: 'line',
+                    label: "Capacité d'autofinancement en M€",
+                    data: [1.16, 1.25, 1.66, 2.6],
+                    borderColor: '#F79824',
+                    borderWidth: 1
+                  },
+                  {
+                    type: 'line',
+                    label: "Trésorerie en M€",
+                    data: [3.23, 4.92, 4.79, 5.27],
+                    borderColor: '#FDCA40',
+                    borderWidth: 1
+                  },
+                  ],
+                  labels: ['2018', '2019', '2020', '2021']
+                },
+                options: {
+                  scales: {
+                    y: {
+                      beginAtZero: false
+                    }
+                  }
+                }
+              });
+            </script>
+            <!-- Fin Chart CA -->
+          </div>
+
+          <div class="flexitem-txt">
+            <h6>Autonomie Financière</h6>
+            <p>La capacité d'autofinancement a augmenté chaque année, ce qui indique que l'entreprise génère
+              suffisamment de liquidités pour financer ses investissements internes. De plus, la trésorerie a également
+              augmenté chaque année, signe d’une bonne maîtrise globale des dépenses de l’entreprise.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 4ème ligne -->
+
+      <section class="padding-b-100">
+        <div class="flexcontainer2">
+
+          <!-- Item Gauche -->
+          <div class="flexitem-txt">
+            <h6>Rentabilité</h6>
+            <p>La marge nette et la rentabilité sur fonds propres ont augmenté, ce qui indique que l'entreprise est
+              devenue plus efficace dans l'utilisation de ses capitaux propres. La rentabilité économique a également
+              augmenté, signifiant une meilleure utilisation des capitaux investis de la part de l’entreprise.</p>
+          </div>
+          <!-- Item Droite -->
+          <div class="flexitem-img">
+            <!-- Chart CA -->
+            <div>
+              <canvas id="myChart4"></canvas>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+            <script>
+              const ctx4 = document.getElementById('myChart4');
+
+              new Chart(ctx4, {
+
+                data: {
+                  datasets: [
+                    {
+                      type: 'bar',
+                      label: "Rentabilité sur fonds propres %",
+                      data: [30.2, 69.8, 48, 52],
+                      borderColor: "#33A1FD",
+                      borderWidth: 1
+                    }, {
+                      type: 'line',
+                      label: "Marge nette sur fond propre en %",
+                      data: [10.2, 9.9, 12.1, 15.3],
+                      borderColor: '#F79824',
+                      borderWidth: 1
+                    }, {
+                      type: 'line',
+                      label: "Rentabilité économique en %",
+                      data: [10.2, 19.9, 7.8, 25.8],
+                      borderColor: '#FDCA40',
+                      borderWidth: 1
+                    },
+                  ],
+                  labels: ['2018', '2019', '2020', '2021']
+                },
+                options: {
+                  scales: {
+                    y: {
+                      beginAtZero: false,
+                      max: 70
+                    }
+                  }
+                }
+              });
+            </script>
+            <!-- Fin Chart CA -->
+          </div>
+        </div>
+      </section>
+
+      <section class="padding-t-100 padding-b-50">
+        <div class="container">
+          <!-- Tittle -->
+          <div class="tittle">
+            <h4>Synthèse</h4>
+            <p>Reflet Communication a connu une croissance constante au cours des quatre dernières années. Elle a su
+              gérer efficacement son besoin en fonds de roulement et générer suffisamment de liquidités pour financer
+              ses activités. On notera aussi une bonne gestion globale de ses investissements.</p>
+            <p>Pour autant, il serait important de surveiller l'évolution du BFR d'exploitation pour s'assurer que
+              l'entreprise peut continuer à financer ses opérations courantes sans difficultés.</p>
+          </div>
+
+        </div>
+      </section>
+
+      <!--======= Tastimonial =========-->
+      <section class="tastimonial tastimonial-bg padding-bottom-100">
+        <div class="container">
+          <div class="testi">
+            <div class="avatar"> <img src="images/Avatar_Oli2.jpg" alt="Avatar"></div>
+            <h6>Olivier MARAVAL</h6>
+            <span>Développeur de cette page</span>
+            <p>Cet encart servira à afficher les avis des clients satisfaits par les prestations de Reflet
+              Communication.<br>
+              En l'absence de photographe compétent, nous avons pu proposer notre meilleur profil dans l'emplacement
+              prévu à cet effet.
+              Il va de soit que la photo du client en question sera plus conventionnelle.</p>
+              <p>Le rapport économique est disponible en bas à droite du pied de page en cliquant sur l'icone ronde de téléchargement.</p>
+          </div>
+        </div>
+      </section>
+
+      <!--======= FOOTER UP =========-->
+      <div class="footer-up">
+        <div class="col-sm-6">
+          <div class="work"> <a class="map" href="https://maps.app.goo.gl/EPtcAv4u4He9fTH46"><i
+                class="fa fa-map-o"></i></a>
+            <p>49 Faubourg de France <br>
+              90000 Belfort</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="contact">
+
+            <!--======= Social Icon =========-->
+            <ul class="social_icons">
+              <li class="general"><a class="general" href="https://www.facebook.com/refletcom" target="_blank"><i
+                    class="fa fa-facebook"></i></a></li>
+              <li class="general"><a class="general" href="https://twitter.com/refletcom" target="_blank"><i
+                    class="fa fa-twitter"></i></a></li>
+              <li class="general"><a class="general" href="https://www.univ-fcomte.fr" target="_blank"><i
+                    class="fa fa-building"></i></a></li>
+              <li class="general"><a class="general" href="https://github.com/mrvolive/sae1.05-06" target="_blank"><i
+                    class="fa fa-git"></i></a></li>
+              <li class="general"><a class="general"
+                  href="fichiers_telechargements/groupe3_COURVOISIERmathis_économie.pdf" target="_blank"><i
+                    class="fa fa-download"></i></a></li>
+            </ul>
+            <p>TEL : 03 84 22 60 39<br>
+              hello@reflet-digital.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Wrap End -->
+
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/own-menu.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.isotope.min.js"></script>
+  <script src="js/counter.js"></script>
+
+  <!-- SLIDER REVOLUTION 4.x SCRIPTS  -->
+  <script src="rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+  <script src="rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+  <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
