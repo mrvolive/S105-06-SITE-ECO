@@ -29,6 +29,10 @@ Screen 1
 
 ![Image montrant un check positif w3c pour la page services](https://raw.githubusercontent.com/mrvolive/sae1.05-06/main/w3c/w3c_services.png)
 
+[w3c Page Histoire](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmrvolive.github.io%2Fsae1_05-06%2Fhistoire.html)
+
+![Image montre un check positif w3c pour la page Histoire](https://raw.githubusercontent.com/mrvolive/sae1.05-06/main/w3c/w3c_economie.png)
+
 
 [w3c Page Economie](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmrvolive.github.io%2Fsae1_05-06%2Feconomie.html)
 
@@ -36,4 +40,7 @@ Screen 1
 
 Screen 4
 
+# Contributions au projet
+
+![Image montrant les contributions au projet](https://raw.githubusercontent.com/mrvolive/sae1.05-06/main/w3c/contributions.png)
 
