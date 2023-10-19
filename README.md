@@ -41,4 +41,7 @@ Screen 1
 
 Screen 4
 
+# Contributions au projet
+
+![Image montrant les contributions au projet](https://raw.githubusercontent.com/mrvolive/sae1.05-06/main/w3c/contributions.png)
 
