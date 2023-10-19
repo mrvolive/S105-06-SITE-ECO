@@ -23,7 +23,10 @@ Le site compte également 3 autres pages présentant respectivement la chronolog
 l’entreprise, ses domaines d’activité et sa situation économique.
 
 # Validation par W3C
-Screen 1
+
+[w3c Page Accueil](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmrvolive.github.io%2Fsae1_05-06%2F)
+
+![Image montrant un check positif w3c pour la page accueil](https://raw.githubusercontent.com/mrvolive/sae1.05-06/main/w3c/w3c_index.png)
 
 [w3c Page Services](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmrvolive.github.io%2Fsae1_05-06%2Fservices.html)
 
@@ -37,8 +40,6 @@ Screen 1
 [w3c Page Economie](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmrvolive.github.io%2Fsae1_05-06%2Feconomie.html)
 
 ![Image montrant un check positif w3c pour la page économie](https://raw.githubusercontent.com/mrvolive/sae1.05-06/main/w3c/w3c_economie.png)
-
-Screen 4
 
 # Contributions au projet
 
