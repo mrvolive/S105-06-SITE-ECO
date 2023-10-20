@@ -22,20 +22,35 @@ paragraphe de présentation et faisant office de menu.
 Le site compte également 3 autres pages présentant respectivement la chronologie de
 l’entreprise, ses domaines d’activité et sa situation économique.
 
-# Validation par W3C
+## Développement Site Web et Validation des pages
+
+### Page d'accueil
+
+**Auteur : Mathis COURVOISIER**  
 
 [w3c Page Accueil](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmrvolive.github.io%2Fsae1_05-06%2F)
 
 ![Image montrant un check positif w3c pour la page accueil](https://raw.githubusercontent.com/mrvolive/sae1.05-06/main/w3c/w3c_index.png)
 
+### Page des services
+
+**Auteur : Valentin VIRET-JACQUOT**  
+
 [w3c Page Services](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmrvolive.github.io%2Fsae1_05-06%2Fservices.html)
 
 ![Image montrant un check positif w3c pour la page services](https://raw.githubusercontent.com/mrvolive/sae1.05-06/main/w3c/w3c_services.png)
+
+### Page histoire
+
+**Auteur : Yahia KHERZA**  
 
 [w3c Page Histoire](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmrvolive.github.io%2Fsae1_05-06%2Fhistoire.html)
 
 ![Image montre un check positif w3c pour la page Histoire](https://raw.githubusercontent.com/mrvolive/sae1.05-06/main/w3c/w3c_economie.png)
 
+### Page économie
+
+**Auteur : Olivier MARAVAL**  
 
 [w3c Page Economie](https://validator.w3.org/nu/?doc=https%3A%2F%2Fmrvolive.github.io%2Fsae1_05-06%2Feconomie.html)
 
