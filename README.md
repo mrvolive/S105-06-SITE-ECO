@@ -89,6 +89,6 @@ l’entreprise, ses domaines d’activité et sa situation économique.
   - Page histoire
 - Valentin VIRET-JACQUOT
   - Page services
- - Olivier MARAVAL
+- Olivier MARAVAL
   - Page économie
   - "Template" de page (Navbar/Footer)
